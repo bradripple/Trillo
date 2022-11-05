@@ -86,6 +86,7 @@ body {
 .detail {
   font-size: 1.4rem;
   display: flex;
+  flex-wrap: wrap;
   padding: 4.5rem;
   background-color: var(--color--grey-light-1);
   border-bottom: var(--line); }
@@ -388,3 +389,13 @@ body {
     color: var(--color-grey-light-2);
     font-family: sans-serif;
     z-index: 1; }
+
+.cta {
+  padding: 3.5rem 0;
+  text-align: center;
+  flex-basis: 100%; }
+  .cta__book-now {
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 2.5rem; }
